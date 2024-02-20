@@ -88,7 +88,7 @@ const reset = () => {
 }
 
 if (taskData.length){
-  updateTaskContainer()
+ updateTaskContainer(); 
 }
 
 openTaskFormBtn.addEventListener("click", () =>
